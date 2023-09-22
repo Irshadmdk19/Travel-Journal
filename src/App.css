@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
-}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-container{
+    width: 100%;
+    margin: 5px;
+    height: fit-content;
+    /* margin-left: */
+    border: solid 1px black;
 }
+.nav-bar{
+    width: 100%;
+    height: 52px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.nav-bar img{
+    height: 42px;
 }
+.nav-bar .header{
+    color: white;
+    margin-left: 9px;
+}
+.main-container{
+    padding: 32px;
+    margin-right: 14px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.card{
+    display: flex;
+    height: 400px;
+    /* flex-wrap: wrap; */
+    /* border: 1px solid rgb(205, 191, 191);    */
+    border-radius: 12px;
+    box-shadow: 7px 4px 9px red; 
+    cursor: pointer;
+    /* padding: 5px; */
+}
+ .card-left{
+    width: 40%;
+
+ }
+ .card-left img{
+     width: 100%;
+    height:100%;
+  
+ }
+ .card-right{
+    width: 60%;
+    padding: 7px;
+    /* margin: 1px; */
+    margin-left: 4px;
+ }   
+/* .loc{
+    height: 24px;
+} */
+.loc-name{
+    color: rgb(124, 124, 120);
+}
+.loc-link{
+    margin-left: 9px;
+}
+.place-name{
+    margin-top: 15px;
+}
+.about-place{
+    /* padding: 10px; */
+    margin-top: 10px;
+}
+.date{
+    margin-top: 3px;
 }
