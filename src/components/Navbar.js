@@ -4,7 +4,7 @@ const Navbar = (props) => {
     return(
         <div className="nav-bar">
             <img src={props.img} alt='map-logo'/>
-            <h2 className="header">My Travel Journel</h2>
+            <h2 className="header">My Travel Journal</h2>
         </div>
 
     )
