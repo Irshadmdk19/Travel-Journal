@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import react from "react"
 
 export default function Main(props){

@@ -1,4 +1,4 @@
-export default[
+const data=[
     {
         id:1,
         title:"Gadaikallu",
@@ -32,7 +32,7 @@ export default[
             description:"Charmadi Ghat is a Ghat in Belthangady taluk of Dakshina Kannada and Mudigere taluk of Chikkamagaluru. It is one of the points in Western ghats through which motorable road passes connecting Dakshina Kannada with Chikkamagaluru district. The section of ghat is known by the name of Charmadi Gha"
         },
         {
-            id:2,
+            id:4,
             title:"Ermayi Water falls",
             location:"Kajoor,Belthangady",
             mapurl:"https://goo.gl/maps/XJPuSxsv7p2rGNkRA",
@@ -42,3 +42,4 @@ export default[
             description:"Superb water falls and  layer type rocks  awesome view .in heavy rainy season falling lots of water and  not possible to swim. this falls is very risky so be careful everyone. 50 rupees per person entry feee.."
         }
 ]
+export default data
