@@ -6,7 +6,7 @@ export default function Main(props){
         <div className="main-container">
         <div className="card">
            <div className="card-left">
-               <img className="place" src={props.imgurl}/>
+               <img className="place" src={props.imgurl} alt="Picture of Place"/>
                </div>
 
            <div className="card-right">
