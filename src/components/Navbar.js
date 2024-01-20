@@ -1,11 +1,13 @@
-import react from "react"
+import React from 'react'
 
-export default function Navbar(props){
+const Navbar = (props) => {
     return(
         <div className="nav-bar">
-            <img src={props.img}/>
+            <img src={props.img} alt='map-logo'/>
             <h2 className="header">My Travel Journel</h2>
         </div>
 
     )
 }
+
+export default Navbar

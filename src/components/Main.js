@@ -1,12 +1,12 @@
 // eslint-disable-next-line no-unused-vars
-import react from "react"
+import React from 'react'
 
-export default function Main(props){
+const Main = (props) => {
     return(
         <div className="main-container">
         <div className="card">
            <div className="card-left">
-               <img className="place" src={props.imgurl} alt="Picture of Place"/>
+               <img className="place" src={props.imgurl} alt="place"/>
                </div>
 
            <div className="card-right">
@@ -33,3 +33,5 @@ export default function Main(props){
 
     )
 }
+
+export default Main
