@@ -57,9 +57,10 @@
     /* margin: 1px; */
     margin-left: 4px;
  }   
-/* .loc{
-    height: 24px;
-} */
+.loc{
+    /* width: 100%; */
+    height: 100%;
+}
 .loc-name{
     color: rgb(124, 124, 120);
 }

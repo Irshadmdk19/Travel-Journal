@@ -10,7 +10,7 @@ export default function Main(props){
 
            <div className="card-right">
             {/* < className="loc_details"> */}
-              <img className="loc" src={`../images/${props.red_locator}`}/>
+              <img className="loc" alt="location" src={`../images/${props.red_locator}`}/>
               {/* <img className="loc" src="./images/placeholder.png" /> */}
                <span className="loc-name"> {props.location}</span> 
               <a className="loc-link" href={props.mapurl}>Visit place on Google map</a>
