@@ -8,7 +8,7 @@ const data=[
         date:"21-January-2021",
         red_locator:"placeholder.png",
 
-        description:"Gadaikallu is about 8km away from Belthangady. The public bus service runs frequently or you could hire a cab or even drive down in your own vehicle. What sets this trek apart from others is the climb. Rather than walk over twisted paths, the path here is made up of stone steps."
+        description:"Gadaikallu is about 8km away from Belthangady. The public bus service runs frequently or you could hire a cab or even drive down in your own vehicle. What sets this trek apart from others is the climb. Rather than walk over twisted paths, the path here is made up of stone steps.It is easy trekking, but be careful , it will be slippery during monsoon. some spot might be difficult for beginners to climb since it is vertical climb."
         
     },
     {
@@ -19,7 +19,7 @@ const data=[
         imgurl:"https://lh5.googleusercontent.com/p/AF1QipMIXymdnjYDpgKvw8fwvb5eo_cQeUJ1LIIvCbX0=w408-h544-k-no",
         red_locator:"placeholder.png",
         date:"21-January-2021",
-        description:"Superb water falls and  layer type rocks  awesome view .in heavy rainy season falling lots of water and  not possible to swim. this falls is very risky so be careful everyone. 50 rupees per person entry feee.."
+        description:"Trip to Ermayi Waterfalls is nothing short of magical! The moment you arrive, the distant roar of the cascading water sets the tone for an unforgettable experience. As you make your way along the 400-metre scenic trail, you’re surrounded by lush greenery, towering trees, and the soothing sounds of nature—a perfect escape for any nature lover. "
     },
     {
         id:3,
@@ -33,13 +33,13 @@ const data=[
         },
         {
             id:4,
-            title:"Ermayi Water falls",
-            location:"Kajoor,Belthangady",
-            mapurl:"https://goo.gl/maps/XJPuSxsv7p2rGNkRA",
-            imgurl:"https://lh5.googleusercontent.com/p/AF1QipMIXymdnjYDpgKvw8fwvb5eo_cQeUJ1LIIvCbX0=w408-h544-k-no",
+            title:"Bandaje Falls",
+            location:"Kadivithwara, Village, Belthangady, Karnataka",
+            mapurl:"https://maps.app.goo.gl/JPHnzBusKXbP1eWD9",
+            imgurl:"https://lh3.googleusercontent.com/gps-cs-s/AC9h4np8vWmifYTMcnsXtnrw-b7a2T8RLY1d8HYDHRBZ1vOAqoZM-M3oixHB8UtZkk-AIPls5fgsvksMLo9HRysMcj5efWZ7e7_YfUEhc3gmRPJbmNAsp9dR2P3wY1w60WY0CIXB-NBebQ=w270-h312-n-k-no",
             red_locator:"placeholder.png",
-            date:"21-January-2021",
-            description:"Superb water falls and  layer type rocks  awesome view .in heavy rainy season falling lots of water and  not possible to swim. this falls is very risky so be careful everyone. 50 rupees per person entry feee.."
+            date:"2-April-2023",
+            description:"Another trek to explore the beauty of western ghat during monsoon. Forest, grass land and the mighty waterfall this trek is a perfect blend of all For beginners it can be little challenging though."
         }
 ]
 export default data

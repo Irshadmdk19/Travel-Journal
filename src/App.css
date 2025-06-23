@@ -57,10 +57,14 @@
     /* margin: 1px; */
     margin-left: 4px;
  }   
-.loc{
-    /* width: 100%; */
-    height: 100%;
-}
+ .loc {
+    width: 24px;         /* Adjust size as needed */
+    height: 24px;
+    object-fit: contain; /* Ensures the image scales nicely */
+    margin-right: 8px;   /* Space between icon and location name */
+    vertical-align: middle;
+    display: inline-block;
+  }
 .loc-name{
     color: rgb(124, 124, 120);
 }
@@ -76,4 +80,84 @@
 }
 .date{
     margin-top: 3px;
+}
+
+@media (max-width: 900px) {
+  .main-container {
+    padding: 16px;
+    margin-right: 0;
+  }
+  .card {
+    height: 320px;
+  }
+  .card-left {
+    width: 45%;
+  }
+  .card-right {
+    width: 55%;
+    padding: 4px;
+    margin-left: 2px;
+  }
+}
+
+@media (max-width: 600px) {
+  .App-container {
+    margin: 0;
+    border-width: 0 0 1px 0;
+  }
+  .nav-bar {
+    height: 44px;
+    flex-direction: row;
+    padding: 0 8px;
+  }
+  .nav-bar img {
+    height: 32px;
+  }
+  .nav-bar .header {
+    font-size: 1.1rem;
+    margin-left: 6px;
+  }
+  .main-container {
+    padding: 8px;
+    margin-right: 0;
+  }
+  .card {
+    flex-direction: column;
+    height: auto;
+    min-height: 320px;
+    box-shadow: 3px 2px 6px red;
+  }
+  .card-left, .card-right {
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+  }
+  .card-left {
+    height: 180px;
+  }
+  .card-left img {
+    height: 100%;
+    object-fit: cover;
+  }
+  .card-right {
+    padding: 8px 0 0 0;
+  }
+  .loc-link {
+    display: block;
+    margin: 4px 0 0 0;
+    font-size: 0.95rem;
+    word-break: break-all;
+  }
+  .place-name {
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+  .about-place {
+    font-size: 0.98rem;
+    margin-top: 6px;
+  }
+  .date {
+    font-size: 0.95rem;
+    margin-top: 2px;
+  }
 }
